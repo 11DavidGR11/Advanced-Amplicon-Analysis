@@ -1,7 +1,0 @@
-df <- readxl::read_xlsx("file_path") 
-
-df$Taxonomy <- gsub("\\([^)]*\\)", "", df$Taxonomy)
-
-write.csv(df,
-    "new_file_path",
-    row.names = FALSE)
