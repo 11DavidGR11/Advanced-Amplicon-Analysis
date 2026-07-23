@@ -1,0 +1,13 @@
+{
+  "plugins": [
+    "community_structure",
+    "differential_abundance",
+    "functional_potential",
+    "plsda",
+    "potential_metabolomic_pathways_abundance",
+    "rda",
+    "top_abundance"
+  ],
+  "minimum_method_images": 25,
+  "schema_version": "2.0"
+}

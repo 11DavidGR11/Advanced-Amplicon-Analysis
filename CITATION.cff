@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Triple A: Advanced Amplicon Analysis"
+abstract: >-
+  An integrated, reproducible framework for amplicon sequencing analysis. Triple A takes a study
+  from raw reads or an existing abundance table through to statistical evidence and biological
+  interpretation, combining community ecology statistics, supervised multivariate methods,
+  compositional differential abundance and reference-genome-based functional inference in a single
+  environment.
+type: software
+authors:
+  - family-names: "Garrido Rodríguez"
+    given-names: "David"
+    email: "david.garrido23@uva.es"
+    orcid: "https://orcid.org/0000-0001-5180-0006"
+    affiliation: "Universidad de Valladolid, Institute of Sustainable Processes (ISP)"
+license: MIT
+keywords:
+  - amplicon sequencing
+  - microbiome
+  - 16S rRNA
+  - microbial ecology
+  - functional prediction
+  - reproducible research
+  - R
+  - Shiny
+# TODO before the first push: add the repository URL once the GitHub repository exists.
+# repository-code: "https://github.com/<user>/<repo>"
+#
+# TODO if the software is archived (e.g. via Zenodo): add the DOI and release date, which are
+# what make the citation permanently resolvable.
+# doi: "10.5281/zenodo.XXXXXXX"
+# date-released: "YYYY-MM-DD"

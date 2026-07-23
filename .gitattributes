@@ -1,0 +1,39 @@
+# Normalise line endings: store LF in the repository, check out the platform
+# default. Without this, a clone on macOS or Linux shows every file as modified.
+* text=auto
+
+# Source and documentation: always LF in the repository
+*.R      text
+*.Rmd    text
+*.md     text
+*.txt    text
+*.csv    text
+*.tsv    text
+*.json   text
+*.svg    text
+*.yaml   text
+*.yml    text
+*.cff    text
+
+# Binary: never touch, never try to diff as text
+*.png    binary
+*.jpg    binary
+*.jpeg   binary
+*.gif    binary
+*.ico    binary
+*.pdf    binary
+*.docx   binary
+*.doc    binary
+*.xlsx   binary
+*.xls    binary
+*.pptx   binary
+*.zip    binary
+*.gz     binary
+*.rds    binary
+*.RData  binary
+*.sqlite binary
+
+# GitHub language statistics: these trees are development tooling and reference
+# documentation, not the product, and would otherwise skew the language bar.
+QualityAssurance/** linguist-vendored
+Resources/Documentation/** linguist-documentation

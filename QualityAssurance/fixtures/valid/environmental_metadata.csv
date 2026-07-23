@@ -1,0 +1,13 @@
+Sample,Treatment,Temperature,pH,Moisture,NH4
+Sample_A1,A,20.2,7.0,61,5.1
+Sample_A2,A,20.4,7.0,62,5.2
+Sample_A3,A,20.6,7.0,63,5.3
+Sample_A4,A,20.8,7.0,64,5.4
+Sample_B1,B,21.2,7.15,61,7.1
+Sample_B2,B,21.4,7.15,62,7.2
+Sample_B3,B,21.6,7.15,63,7.3
+Sample_B4,B,21.8,7.15,64,7.4
+Sample_C1,C,22.2,7.3,61,9.1
+Sample_C2,C,22.4,7.3,62,9.2
+Sample_C3,C,22.6,7.3,63,9.3
+Sample_C4,C,22.8,7.3,64,9.4

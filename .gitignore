@@ -1,0 +1,40 @@
+# ---------------------------------------------------------------------------
+# Reference-genome cache: ~485 MB of GFF annotations plus the SQLite index.
+# Regenerable from NCBI and shipped separately with the release, so it must
+# never enter the history -- committing it would make the repository unusable.
+# The directory contract itself is recreated by Tools/Release/Build_Clean_Release.R.
+# ---------------------------------------------------------------------------
+Cache/
+
+# Release archives
+*.zip
+
+# Generated run outputs (keep the directory contract, drop the contents)
+Results/**
+!Results/**/
+!Results/**/.gitkeep
+
+# Quality-assurance artefacts regenerated on every run
+QualityAssurance/reports/**
+!QualityAssurance/reports/
+!QualityAssurance/reports/.gitkeep
+QualityAssurance/tmp/**
+!QualityAssurance/tmp/
+!QualityAssurance/tmp/.gitkeep
+
+# R and editor local state
+.Rhistory
+.RData
+.Ruserdata
+.Renviron
+.Rproj.user/
+.vscode/
+.idea/
+
+# Coding-assistant local settings
+.claude/settings.local.json
+
+# OS noise
+Thumbs.db
+Desktop.ini
+.DS_Store
