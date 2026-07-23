@@ -1,4 +1,12 @@
-# Triple A — Advanced Amplicon Analysis
+<p align="center">
+  <img src="AAApp/Launcher/www/triple_a_logo.png" width="250">
+</p>
+
+<h1 align="center">Triple A</h1>
+
+<p align="center">
+Advanced Amplicon Analysis
+</p>
 
 An integrated, reproducible framework for amplicon sequencing analysis: from raw reads or an
 existing abundance table through to statistical evidence and biological interpretation, inside a
