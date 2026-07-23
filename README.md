@@ -23,7 +23,7 @@ its own reproducibility metadata: parameters, methods, package versions and a fi
 
 ## Requirements
 
-R 4.4.x. Nothing else needs to be installed by hand — the Launcher checks the required packages and
+R 4.4.x. Nothing else needs to be installed by hand. Launcher checks the required packages and
 offers to install anything missing. Most analyses need only common CRAN packages; ANCOM-BC2,
 MaAsLin2 and the FASTQ module need Bioconductor packages, which are offered on demand.
 
