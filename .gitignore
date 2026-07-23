@@ -31,9 +31,6 @@ QualityAssurance/tmp/**
 .vscode/
 .idea/
 
-# Coding-assistant local settings
-.claude/settings.local.json
-
 # OS noise
 Thumbs.db
 Desktop.ini
