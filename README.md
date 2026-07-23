@@ -1,4 +1,12 @@
-# Triple A — Advanced Amplicon Analysis
+<p align="center">
+  <img src="AAApp/Launcher/www/triple_a_logo.png" width="250">
+</p>
+
+<h1 align="center">Triple A</h1>
+
+<p align="center">
+Advanced Amplicon Analysis
+</p>
 
 An integrated, reproducible framework for amplicon sequencing analysis: from raw reads or an
 existing abundance table through to statistical evidence and biological interpretation, inside a
@@ -6,7 +14,7 @@ single environment.
 
 Triple A is organised around the biological questions a study asks rather than around the
 statistical methods it uses. An analysis is offered when the experimental design can support it,
-and is locked — with an explanation of how to unlock it — when it cannot.
+and is locked, with an explanation of how to unlock it, when it cannot.
 
 ## What it does
 
@@ -23,7 +31,7 @@ its own reproducibility metadata: parameters, methods, package versions and a fi
 
 ## Requirements
 
-R 4.4.x. Nothing else needs to be installed by hand — the Launcher checks the required packages and
+R 4.4.x. Nothing else needs to be installed by hand. Launcher checks the required packages and
 offers to install anything missing. Most analyses need only common CRAN packages; ANCOM-BC2,
 MaAsLin2 and the FASTQ module need Bioconductor packages, which are offered on demand.
 
@@ -95,22 +103,12 @@ figure and table the platform produces.
 Rscript QualityAssurance/Run_All_Tests.R
 ```
 
-97 tests covering scientific correctness, interface behaviour, caching and regression, including
+98 tests covering scientific correctness, interface behaviour, caching and regression, including
 numerical checks against reference results. The suite writes a report to
 `QualityAssurance/reports/`.
 
 Set `TRIPLE_A_TEST_LEVEL` to `smoke`, `functional`, `regression` or `release` to control the depth
 of the run (default: `release`, which runs everything).
-
-## Building a release
-
-```bash
-Rscript Tools/Release/Build_Clean_Release.R
-```
-
-Produces a distribution archive containing only what an end user needs. Set
-`TRIPLE_A_KEEP_CACHE=TRUE` to ship the pre-resolved reference cache with it, which is what the
-beta-testing build does.
 
 ## Citing
 
@@ -118,7 +116,7 @@ See `CITATION.cff`, or use the "Cite this repository" button on GitHub.
 
 ## License
 
-MIT — see [LICENSE](LICENSE).
+GPL-3.0 — see [LICENSE](LICENSE).
 
 ## Author
 
